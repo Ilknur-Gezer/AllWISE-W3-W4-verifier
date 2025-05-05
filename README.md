@@ -13,9 +13,9 @@ python W3_main.py train
 
 # Train W4 model
 python W4_main.py train
-This will automatically:
 
-Load training data
+
+This will automatically: Load training data
 Evaluate multiple classifiers (Random Forest, SVM, k-NN, Naive Bayes, Decision Tree)
 Save the best-performing model based on validation accuracy
 🔍 Prediction
@@ -26,8 +26,8 @@ python W3_main.py predict
 
 # Predict W4 band sources
 python W4_main.py predict
-The output CSV will include:
 
-Source ID
+
+The output CSV will include: Source ID
 Predicted class (real or fake)
 Probability of the source being real
